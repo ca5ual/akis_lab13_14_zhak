@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import {CFooter} from './components/CFooter';
+import CHeader from './components/CHeader';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <CHeader aName = "Jan" aFamily = "Kowalski"/>
+ 
+    <CFooter weather = "słoneczna" temp = "25"/>
+    <CFooter weather = "deszczowa" temp = "13"/>
+    <CFooter weather = "śnieżna" temp = "-6"/>
+        
     </div>
   );
 }
