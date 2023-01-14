@@ -1,16 +1,23 @@
 // import logo from './logo.svg';
 import './App.css';
-import {CFooter} from './components/CFooter';
+import CContents from './components/CContents';
+// import {CFooter} from './components/CFooter';
 import CHeader from './components/CHeader';
 
+    
 function App() {
   return (
     <div className="App">
-    <CHeader aName = "Jan" aFamily = "Kowalski"/>
+    <CHeader aName = "Denys" aFamily = "Zhak"/> 
+    <CContents/>
  
-    <CFooter weather = "słoneczna" temp = "25"/>
-    <CFooter weather = "deszczowa" temp = "13"/>
-    <CFooter weather = "śnieżna" temp = "-6"/>
+
+     {/* <CFooter weather = "deszczowa" temp = "13"/>
+    <CFooter weather = "słoneczna" temp = "25">
+      <p>
+        Niebo jest bezchmurne, wiatr slaby
+      </p>
+   </CFooter> */}
         
     </div>
   );
