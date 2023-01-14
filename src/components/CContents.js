@@ -19,7 +19,7 @@ class CContents extends Component {
             let value = this.txtData().text[i];
             items.push (
                 <div id={`"div${i+1}"`} className="contentsFlex">
-                    <img className="contentsFlexImg" src={'/akis_lab13_14_zhak/public/img/img'+(i+1)+'.png'} alt =""/>
+                    <img className="contentsFlexImg" src={'/akis_lab13_14_zhak/public/img/img'+(i+1)+'.png'} alt =""></img>
                     
                     <p className="contentsFlexTxt">{value}</p>
                 </div>

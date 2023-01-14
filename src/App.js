@@ -8,6 +8,7 @@ import CHeader from './components/CHeader';
 function App() {
   return (
     <div className="App">
+    
     <CHeader aName = "Denys" aFamily = "Zhak"/> 
     <CContents/>
  
