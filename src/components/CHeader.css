@@ -15,7 +15,7 @@ pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-.App-logo {
+.headerLogo {
     animation: App-logo-spin infinite 20s linear;
 }
 }

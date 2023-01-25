@@ -1,10 +1,10 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import './CContents.css';
-import jsonData from './res/text.json';
+import jsonData from '../res/text.json';
 
 class CContents extends Component {
     constructor() {
-        super ()
+        super()
         this.state = {msg: 'Witaj uzytkowniku. Kliknij na przycisk aby poznac wiadomosc'}
         this.txtData = () => JSON.parse(JSON.stringify(jsonData));
     }
@@ -19,7 +19,7 @@ class CContents extends Component {
             let value = this.txtData().text[i];
             items.push (
                 <div id={`"div${i+1}"`} className="contentsFlex">
-                    <img className="contentsFlexImg" src={'/akis_lab13_14_zhak/public/img/img'+(i+1)+'.png'} alt =""></img>
+                    <img className="contentsFlexImg" src={'/img/img'+(i+1)+'.png'} alt =""></img>
                     
                     <p className="contentsFlexTxt">{value}</p>
                 </div>
